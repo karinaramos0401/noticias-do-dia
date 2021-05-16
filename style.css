@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: #C2E2F5;
+    text-align: center;
+    padding: 1px;
+}
+
+
+h1, h2 {
+    font-family: 'Fauna One', serif;
+
+    
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+
+h2 {
+    font-size: 30px;
+    font-style: bold;
+    font-weight: 600;
+}
+.container  {
+    background-color: #dcdcdc;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width: 600px)  {
+    .container {
+        flex-direction: column;
+    }
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+}
